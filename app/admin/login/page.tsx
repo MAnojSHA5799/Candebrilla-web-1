@@ -107,14 +107,14 @@ export default function AdminLoginPage() {
             >
               {loading ? "Logging in..." : "Login"}
             </Button>
-          </form>
+          </form>   
 
           {/* Demo Credentials */}
-          <div className="mt-8 p-4 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 rounded-lg border border-primary/20">
+          {/* <div className="mt-8 p-4 bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 rounded-lg border border-primary/20">
             <p className="text-xs font-semibold text-foreground mb-2">Demo Credentials:</p>
             <p className="text-xs text-muted-foreground font-medium">Email: admin@candebrilla.com</p>
             <p className="text-xs text-muted-foreground font-medium">Password: Admin@123</p>
-          </div>
+          </div> */}
 
           {/* Back Link */}
           <div className="mt-6 text-center">
